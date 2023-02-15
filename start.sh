@@ -1,4 +1,4 @@
-/bin/bash
+#!/bin/bash
 echo "Cloning Repo...."
 git clone https://github.com/Royalbotssupport/MdiskSearchBotV2.git /MdiskSearchBotV2
 cd /MdiskSearchBotV2
