@@ -7,13 +7,13 @@ import os
 class Config(object):
     API_ID = int(os.getenv("API_ID", "16341342"))
     API_HASH = os.getenv("API_HASH", "8d569ba1bdff190ed468f33d84fcb942")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "6202018836:AAFZHfRG0wXNL9SL9_-ttKRp4m2jC2dXPZo")
-    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "MoviesTimeMdiskRobot")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "5920042417:AAFnv02gNilpLQJIZfmSTo5db087PlO5fHU")
+    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "MoviesTimeRobot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "AQARyoWIKFhWEuwLWKhm5YOWqvRdItZSGVAQ5HQlLrVSuYDiRcye1thbJHxK9VtzRAMdmvU3KiTg6TrJjrMM0r2mMhis1Kc7jZjZG87X7j82yey6AxneX1_vavsNh6uyZvVWVsWeWQzMvjpEcG56XLcSdUX2p8gLoq0QoiDzx7DmgCVVGvRxpr8Vv8B0xMjzXB7_gN6P8VxM4nuzetB6LWgL5uiU1g0kRGjQIT-3QemmLcTabbLln9oezMsYBvsjSMCSN3BC-ct9z6iT-gHtbLzxda8QKIyzU8GwcnRQsrVqWwIy54GKbBuxLiYw9w1aZjPtb0UrTS8N55-sb8ENI65uAAAAATXMBPQA")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001606744286")) 
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "MoviesTimeMdiskRobot")
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "MoviesTimeRobot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "1851591526"))
-#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "Royalbotssupport")
+#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "Arnav_offcial")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "RoyalbotsMovie")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
